@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/idEditCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course name"
+      android:layout_margin="10dp" />
+
+
+<!--    edit text to enter course duration-->
+
+    <EditText
+        android:id="@+id/idEditCourseDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course Duration"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/idEditCourseTracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course tracks"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/idEditCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course tracks"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/idBtnAddCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="App Course"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/idBtnReadCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Read all Course"
+        android:textAllCaps="false"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
